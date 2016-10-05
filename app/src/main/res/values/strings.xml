@@ -5,4 +5,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="textView2">Login</string>
     <string name="password">Password</string>
+    <string name="dialog_message">Do you want to finish? </string>
+    <string name="dialog_title">YES</string>
+    <string name="ok">YES</string>
+    <string name="cancel">NO</string>
 </resources>

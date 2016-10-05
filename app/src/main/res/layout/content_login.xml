@@ -11,7 +11,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.pelle.lab1.LoginActivity"
     tools:showIn="@layout/activity_login"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="53dp"
@@ -19,16 +20,27 @@
         android:text="Login"
         android:id="@+id/textView2" />
 
-    <TextView
-        android:layout_width="69dp"
-        android:layout_height="wrap_content"
-        android:text="@string/password"
-        android:id="@+id/textView3" />
-
     <EditText
-        android:layout_width="112dp"
+        android:layout_width="332dp"
         android:layout_height="54dp"
         android:hint="Login Name"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_vertical"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginbutton1"
+        android:layout_gravity="right" />
 
 </LinearLayout>
